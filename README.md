@@ -1,10 +1,10 @@
 # Meu Site de Apresentação
 
-Bem-vindo ao meu site de apresentação! 🚀
+Bem-vindo ao meu site de apresentação! 
 
 ## Sobre mim
 
-Olá! Me chamo Cayo Rodrigues, sou desenvolvedor Front-End com foco em criar experiências digitais modernas, acessíveis e responsivas. 💡  
+Olá! Me chamo Cayo Rodrigues, sou desenvolvedor Front-End com foco em criar experiências digitais modernas, acessíveis e responsivas.   
 Sou estudante de Técnico em Informática e apaixonado por tecnologia, design e desenvolvimento web.
 
 ## O que você vai encontrar aqui
@@ -18,7 +18,6 @@ Sou estudante de Técnico em Informática e apaixonado por tecnologia, design e 
 - HTML5
 - CSS3
 - JavaScript
-- [Outras que você usou no site, como frameworks, bibliotecas ou ferramentas]
 
 ## Acesse o site
 
