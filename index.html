@@ -1,49 +1,155 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Apresentação</title>
+    <title>Cayo Rodrigues | Desenvolvedor Front-End & Designer UI/UX</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="image-container">
-            <img src="cayo.png" alt="Sua apresentação" class="profile-image">
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span>Cayo Rodrigues</span>
         </div>
-        
-        <div class="content">
-            <header>
-                <h1><span class="name-highlight">Cayo</span>dev_</h1>
-                <p class="profession">Estou cursando Técnico em Informática</p>
-            </header>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#pricing">Orçamento</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transformo ideias em <span class="highlight">realidade digital</span></h1>
+            <p class="subtitle">Desenvolvedor Front-End & Designer UI/UX</p>
+            <a href="#contact" class="cta-button">Vamos conversar? <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-image">
+            <div class="gradient-circle"></div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Como posso te ajudar?</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Desenvolvimento Web</h3>
+                <p>Sites responsivos, landing pages e aplicações com React, Vue ou HTML/CSS puro.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Interfaces intuitivas e protótipos no Figma para melhor experiência do usuário.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon-box">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Otimização</h3>
+                <p>Aceleração de sites (SEO, Core Web Vitals) e melhorias de performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="portfolio-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="templates.jpg" alt="Projeto 1">
+                </div>
+                <div class="project-info">
+                    <h3>Doçura Confeitaria</h3>
+                    <p>Tecnologias: HTML, CSS, JavaScript</p>
+                    <a href="https://cayorodriguesdev.github.io/confeitaria-ducura/" class="project-link">Ver Detalhes <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2 class="section-title">Investimento</h2>
+        <div class="pricing-cards">
+            <div class="price-card">
+                <h3>Básico</h3>
+                <p class="price">R$ 800,00 +</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Landing Page</li>
+                    <li><i class="fas fa-check"></i> Design Responsivo</li>
+                    <li><i class="fas fa-check"></i> 1 Revisão</li>
+                </ul>
+                <a href="#contact" class="price-button">Solicitar</a>
+            </div>
+            <div class="price-card popular">
+                <span class="popular-tag">Mais Pedido</span>
+                <h3>Profissional</h3>
+                <p class="price">R$ 1.500,00 +</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Site Multi-páginas</li>
+                    <li><i class="fas fa-check"></i> UI/UX Design</li>
+                    <li><i class="fas fa-check"></i> 2 Revisões</li>
+                </ul>
+                <a href="#contact" class="price-button">Solicitar</a>
+            </div>
+        </div>
+        <p class="pricing-note">* Valores médios - orçamento exato sob consulta</p>
+    </section>
+
+    <section id="contact" class="contact">
+    <h2 class="section-title">Vamos trabalhar juntos?</h2>
+    <div class="contact-container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:cayorodrigues2020@gmail.com">cayorodrigues2020@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="https://wa.me/5569984629189">(69) 98462-9189</a>
+                </div>
+            </div>
             
-            <section class="about">
-                <p>Estudante de Informática com foco em desenvolvimento web. Sempre buscando aprender mais e transformar ideias em código.</p>
-                <p>Trabalho como free-lancer sob demanda. Para mais informações ou fazer demanda me chama:</p>
-            </section>
-            
-            <div class="divider"></div>
-            
-            <section class="contact">
-                <h2>Minhas Redes Sociais</h2> 
+            <div class="social-container">
+                <h3>Me encontre nas redes</h3>
                 <div class="social-links">
-                    <a href="https://wa.me/5569984629189" target="_blank" class="social-link whatsapp">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    <a href="https://wa.me/5569984629189" target="_blank" class="social-button whatsapp">
+                        <i class="fab fa-whatsapp"></i>
                     </a>
-                    <a href="https://facebook.com/profile.php?id=61578190305505" target="_blank" class="social-link facebook">
-                        <i class="fab fa-facebook-f"></i> Facebook
+                    <a href="https://instagram.com/cayodev_/" target="_blank" class="social-button instagram">
+                        <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://instagram.com/cayodev_" target="_blank" class="social-link instagram">
-                        <i class="fab fa-instagram"></i> Instagram
+                    <a href="https://facebook.com/profile.php?id=61578190305505" target="_blank" class="social-button facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://github.com/cayorodriguesdev/" target="_blank" class="social-button github">
+                        <i class="fab fa-github"></i>
                     </a>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
+</section>
+
+    <footer>
+        <p>© <span id="year"></span> Cayo Rodrigues. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
