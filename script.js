@@ -5,19 +5,31 @@ document.addEventListener('DOMContentLoaded', function() {
     // Menu mobile
     const menuToggle = document.querySelector('.menu-toggle');
     const navLinks = document.querySelector('.nav-links');
+    const body = document.body;
     
     menuToggle.addEventListener('click', function() {
         navLinks.classList.toggle('active');
+        body.classList.toggle('no-scroll');
+        
+        // Mudar ícone
+        const icon = this.querySelector('i');
+        if (navLinks.classList.contains('active')) {
+            icon.classList.replace('fa-bars', 'fa-times');
+        } else {
+            icon.classList.replace('fa-times', 'fa-bars');
+        }
     });
 
     // Fechar menu ao clicar em um link
     document.querySelectorAll('.nav-links a').forEach(link => {
         link.addEventListener('click', () => {
             navLinks.classList.remove('active');
+            body.classList.remove('no-scroll');
+            menuToggle.querySelector('i').classList.replace('fa-times', 'fa-bars');
         });
     });
 
-    // Efeito de cursor personalizado
+    // Restante do seu código (cursor, animações, etc.)
     const cursor = document.querySelector('.cursor');
     
     document.addEventListener('mousemove', (e) => {
@@ -48,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     
     window.addEventListener('scroll', animateOnScroll);
-    animateOnScroll(); // Executar uma vez ao carregar
+    animateOnScroll();
 
     // Efeito de digitação
     new TypeIt("#typing-effect", {
@@ -69,41 +81,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         
         if (targetElement) {
             window.scrollTo({
-                top: targetElement.offsetTop - 80, // Ajuste para a altura do navbar
+                top: targetElement.offsetTop - 80,
                 behavior: 'smooth'
             });
         }
-    });
-});
-
-// Menu mobile melhorado
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-const navbar = document.querySelector('.navbar');
-
-menuToggle.addEventListener('click', function() {
-    // Alternar classe active
-    navLinks.classList.toggle('active');
-    
-    // Mudar ícone
-    const icon = this.querySelector('i');
-    if (navLinks.classList.contains('active')) {
-        icon.classList.remove('fa-bars');
-        icon.classList.add('fa-times');
-        document.body.style.overflow = 'hidden'; // Previne scroll
-    } else {
-        icon.classList.remove('fa-times');
-        icon.classList.add('fa-bars');
-        document.body.style.overflow = 'auto'; // Permite scroll
-    }
-});
-
-// Fechar menu ao clicar em um link
-document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-        navLinks.classList.remove('active');
-        menuToggle.querySelector('i').classList.remove('fa-times');
-        menuToggle.querySelector('i').classList.add('fa-bars');
-        document.body.style.overflow = 'auto';
     });
 });
