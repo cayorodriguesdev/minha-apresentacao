@@ -1,29 +1,48 @@
-# Meu Site de Apresentação
+## Projeto: Site pessoal com tema espacial | Refinamento visual e responsividade
 
-Bem-vindo ao meu site de apresentação! 
+Olá! Me chamo Cayo Rodrigues e sou estudante de Técnico em Informática com foco em desenvolvimento Front-End.
 
-## Sobre mim
+Já desenvolvi o meu **site pessoal de apresentação**, com tema espacial, visual moderno e foco em UI/UX. Agora, procuro um(a) freelancer para **refinar detalhes**, **melhorar ainda mais a responsividade**, e aplicar sugestões criativas que elevem o nível do projeto.
 
-Olá! Me chamo Cayo Rodrigues, sou desenvolvedor Front-End com foco em criar experiências digitais modernas, acessíveis e responsivas.   
-Sou estudante de Técnico em Informática e apaixonado por tecnologia, design e desenvolvimento web.
-
-## O que você vai encontrar aqui
-
-- Minha apresentação profissional
-- Um pouco sobre minhas habilidades e tecnologias que utilizo
-- Projetos que desenvolvi ou estou desenvolvendo
-
-## Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Acesse o site
-
-[👉 Clique aqui para acessar o site](https://cayorodriguesdev.github.io/minha-apresentacao/)
+###  Link do site:
+https://cayorodriguesdev.github.io/minha-apresentacao/
 
 ---
 
-Sinta-se à vontade para me chamar para colaborações ou projetos! 
+### O que já está pronto:
+- Visual com tema espacial (background animado de estrelas)
+- Paleta de cores moderna (tons de neon)
+- Estrutura HTML e CSS separadas
+- Navegação com âncoras (Início, Quem sou, Serviços, etc.)
+- CTA atrativo (“Vamos conversar?”)
 
+---
+
+### O que quero com este projeto:
+- Revisão e ajustes de responsividade mobile
+- Sugestões visuais para deixar o site ainda mais marcante
+- Melhoria de pequenos detalhes no layout e nas animações
+- Reorganização ou sugestões de código mais limpo (HTML/CSS)
+
+---
+
+### Diferenciais bem-vindos:
+- Criatividade para refinar a identidade visual espacial
+- Conhecimento de animações com CSS ou JavaScript leve
+- Dicas de boas práticas de UX
+
+---
+
+### Entregáveis:
+- Versão final do código com melhorias
+- Explicação breve das mudanças realizadas
+- Sugestões futuras, se quiser indicar ideias extras
+
+---
+
+### Perfil desejado:
+- Desenvolvedor(a) Front-End com senso estético apurado
+- Experiência em responsividade e layout moderno
+- Comunicação simples e objetiva
+
+Vamos criar juntos algo ainda mais impactante!!!
